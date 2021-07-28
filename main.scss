@@ -1,6 +1,6 @@
 $colBlac:#000000;
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-@import url(//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy);
+@import url("//db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy");
 body {
     background-color: #FDEFE6;
     margin: 0;
@@ -38,6 +38,7 @@ nav {
             list-style: none;
             display: inline-flex;
             li {
+                font-family: 'Gilroy';
                 margin-right: 60px;
                 select {
                     border: none;
@@ -69,7 +70,6 @@ nav {
     margin: 0 auto;
     h3 {
         text-transform: uppercase;
-        font-family: 'Girloy';
         font-weight: 100;
         letter-spacing: 1px;
         font-size: 20px;
