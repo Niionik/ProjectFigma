@@ -72,6 +72,7 @@ nav .list-menu-on-nav ul li select {
   text-align: center;
   max-width: 960px;
   margin: 0 auto;
+  margin-bottom: 70px;
 }
 
 .Welcome-text h3 {
@@ -90,6 +91,52 @@ nav .list-menu-on-nav ul li select {
   line-height: 96px;
 }
 
+.main-image-div {
+  display: flex;
+  width: 100%;
+  justify-content: inherit;
+}
+
+.image-welcome-page {
+  margin-right: 20px;
+}
+
+.layout-image {
+  display: flex;
+  position: relative;
+}
+
 .layout-image .o {
-  width: 23px;
+  width: 600px;
+  height: 822px;
+}
+
+.layout-image .oo {
+  width: 400px;
+  height: 548px;
+  bottom: 0;
+}
+
+.layout-image .ooo {
+  width: 480px;
+  height: 658px;
+}
+
+.layout-image .oooo {
+  width: 600px;
+  height: 822px;
+}
+
+.layout-image .ooooo {
+  width: 400px;
+  height: 548px;
+  display: none;
+}
+
+@media only screen and (min-width: 750px) {
+  main {
+    justify-content: center;
+    min-width: 1245px;
+    margin: 0 -323px;
+  }
 }
