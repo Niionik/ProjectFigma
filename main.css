@@ -102,7 +102,6 @@ nav .list-menu-on-nav ul li select {
 }
 
 .layout-image {
-  display: flex;
   position: relative;
 }
 
@@ -114,7 +113,6 @@ nav .list-menu-on-nav ul li select {
 .layout-image .oo {
   width: 400px;
   height: 548px;
-  bottom: 0;
 }
 
 .layout-image .ooo {
@@ -136,7 +134,7 @@ nav .list-menu-on-nav ul li select {
 @media only screen and (min-width: 750px) {
   main {
     justify-content: center;
-    min-width: 1245px;
     margin: 0 -323px;
+    min-width: 1260px;
   }
 }
